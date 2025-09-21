@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { clsx } from 'clsx';
-import type { Theme, CrackleEffect, MousePosition, ParallaxOffset } from '@/types';
+import type { Theme, CrackleEffect, ParallaxOffset } from '@/types';
 
 export default function LandingPage() {
   const [theme, setTheme] = useState<Theme>('dark');
